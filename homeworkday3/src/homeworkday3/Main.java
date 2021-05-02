@@ -5,16 +5,18 @@ public class Main {
 	public static void main(String[] args) {
 
      Instructor instructor = new Instructor();
-		    instructor.setId(1);
-			instructor.setFirstName("Ali ");
-			instructor.setLastName("Deniz ");
-			instructor.setEmail("ali@gmail.com");
-			instructor.setCoursesInstructor("Java");
+        instructor.setId(1);
+	instructor.setFirstName("Ali ");
+	instructor.setLastName("Deniz ");
+	instructor.setEmail("ali@gmail.com");
+	instructor.setCoursesInstructor("Java");
+		
 			
-	 Student student1 = new Student( 2, "Ayşe ", "Yıldız ", "ayse@gmail.com", "67890","Java");
-	 Student student2 = new Student( 3, "Elif ", "Yüksel ", "elif@gmail.com", "66666", "Python");
-	 Student student3 = new Student( 4, "Veli ", "Gündüz ", "veli@gmail.com", "89789", "Java");
+     Student student1 = new Student( 2, "AyÃ¾e ", "YÃ½ldÃ½z ", "ayse@gmail.com", "67890","Java");
+     Student student2 = new Student( 3, "Elif ", "YÃ¼ksel ", "elif@gmail.com", "66666", "Python");
+     Student student3 = new Student( 4, "Veli ", "GÃ¼ndÃ¼z ", "veli@gmail.com", "89789", "Java");
      
+		
 	 StudentManager student = new StudentManager();
 	 student.addLesson(student3); 
 	 
