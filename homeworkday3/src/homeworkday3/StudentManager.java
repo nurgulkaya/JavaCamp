@@ -7,7 +7,7 @@ public class StudentManager extends UserManager{
 		System.out.println(student.getFirstName() + student.getLastName() + student.getLessons() + " kursunu ekledi.");
 	}
      public void deleteLesson(Student student) {
-	    System.out.println(student.getFirstName() + student.getLastName() + student.getLessons() + " kursunu sildi.");
+	        System.out.println(student.getFirstName() + student.getLastName() + student.getLessons() + " kursunu sildi.");
 	}
 	 
 	 
