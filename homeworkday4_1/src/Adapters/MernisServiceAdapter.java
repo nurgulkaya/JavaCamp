@@ -2,9 +2,6 @@ package Adapters;
 
 
 import java.rmi.RemoteException;
-
-import com.sun.tools.javac.util.Convert;
-
 import Abstract.CustomerCheckService;
 import Entities.Customer;
 import tr.gov.nvi.tckimlik.WS.KPSPublicSoap;
