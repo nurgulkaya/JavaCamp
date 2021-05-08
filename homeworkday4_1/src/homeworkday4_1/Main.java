@@ -9,8 +9,8 @@ public class Main {
 
 	public static void main(String[] args) {
     
-       BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
-	   customerManager.Save( new Customer (1, "Nurgül", "Kaya", 2001, "13858498578"));
+           BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
+	      customerManager.Save( new Customer (1, "NurgÃ¼l", "Kaya", 2001, "11111111111"));
        
        
 	}
