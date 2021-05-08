@@ -6,7 +6,7 @@ import Entities.Customer;
 
 public class StarbucksCustomerManager extends BaseCustomerManager {
    
-	private CustomerCheckService customerCheckService;
+    private CustomerCheckService customerCheckService;
    
     public StarbucksCustomerManager(CustomerCheckService customerCheckService) {
     	super();
