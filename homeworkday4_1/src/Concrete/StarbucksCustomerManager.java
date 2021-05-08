@@ -17,7 +17,7 @@ public class StarbucksCustomerManager extends BaseCustomerManager {
 	public void Save(Customer customer) {
 		
         if(customerCheckService.CheckIfRealPerson(customer)) {	
-        	this.Save(customer);
+        	super.Save(customer);
     
         }else{
             System.out.println("Not a valid person");
