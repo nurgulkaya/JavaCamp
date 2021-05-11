@@ -9,10 +9,11 @@ public class SaleManager implements SaleService {
 
 	@Override
 	public void sale(Member member, Game game, Campaign campaign) {
-		System.out.println("Oyun Fiyatý: "+ game.getUnitPrice() + " TL'dir.");
-	    System.out.println(member.getFirstName()+ " "  + member.getLastName() + " adlý üye " +        
+		
+		System.out.println("Oyun FiyatÄ±: "+ game.getUnitPrice() + " TL'dir.");
+	        System.out.println(member.getFirstName()+ " "  + member.getLastName() + " adlÄ± Ã¼ye " +        
 				  game.getGameName() + " oyununu " + campaign.getCampaignName() +
-				  " %"+campaign.getDiscount() + " indirim oraný ile satýn aldý.");
+				  " %"+campaign.getDiscount() + " indirim oranÄ± ile satÄ±n aldÄ±.");
 	}
 	
 	
