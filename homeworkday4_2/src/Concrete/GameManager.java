@@ -8,8 +8,8 @@ public class GameManager implements GameService{
 
 	@Override
 	public void gameAttribute(Game game) {
-		System.out.println("Oyun adý: " + game.getGameName() + "\n" + 
-		                   "Oyun Fiyatý: " + game.getUnitPrice());
+		System.out.println("Oyun adÄ±: " + game.getGameName() + "\n" + 
+		                   "Oyun FiyatÄ±: " + game.getUnitPrice());
 		
 
 	}
