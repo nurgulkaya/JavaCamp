@@ -9,50 +9,48 @@ import Entities.Game;
 import Entities.Member;
 
 
-public class Main {
-
-	
+public class Main {	
 
 	public static void main(String[] args) {
 		
-     	MemberManager memberManager = new MemberManager();
+     	        MemberManager memberManager = new MemberManager();
 		CampaignManager campaignManager = new CampaignManager();
 		GameManager gameManager = new GameManager();
 		SaleManager saleManager = new SaleManager();
 			
 		
-		Game game = new Game();
+	       Game game = new Game();
 		game.setId(1);
 		game.setGameName("Tekken");
 		game.setUnitPrice(200);
 		
-	    gameManager.gameAttribute(game);
+	        gameManager.gameAttribute(game);
 
 	    
-        Member member = new Member();
-        member.setId(2);
-		member.setFirstName("Ayþe");
+               Member member = new Member();
+                member.setId(2);
+		member.setFirstName("AyÃ¾e");
 		member.setLastName("Sezer");
 		member.setDateOfBirth(1998);
 		member.setNationalityId( "22334455660");
 		member.setMail("def@gmail.com");
 		
 		memberManager.addMember(member);
-	    memberManager.updateMember(member);
-	    memberManager.deleteMember(member);
+	        memberManager.updateMember(member);
+	        memberManager.deleteMember(member);
 
         
-		Campaign campaign = new Campaign();
+	       Campaign campaign = new Campaign();
 		campaign.setId(2);
-		campaign.setCampaignName("Bahar Kampanyasý");
+		campaign.setCampaignName("Bahar KampanyasÃ½");
 		campaign.setDiscount(20);
 	
-	    campaignManager.addCampaign(campaign);
-	    campaignManager.updateCampaign(campaign);
-	    campaignManager.deleteCampaign(campaign);
+	        campaignManager.addCampaign(campaign);
+	        campaignManager.updateCampaign(campaign);
+	        campaignManager.deleteCampaign(campaign);
 
 	    
-       saleManager.sale(member, game, campaign);
+              saleManager.sale(member, game, campaign);
 		
 	}
 
