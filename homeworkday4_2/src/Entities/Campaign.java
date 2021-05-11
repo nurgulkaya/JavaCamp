@@ -4,9 +4,9 @@ import Abstract.Entity;
 
 public class Campaign implements Entity {
 	
-             private int id;
-             private String campaignName;
-         	 public double discount;
+           private int id;
+           private String campaignName;
+           private double discount;
          	 
          	public Campaign() {
          		
